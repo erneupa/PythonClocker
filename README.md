@@ -9,5 +9,5 @@ Esta extensión para su navegador le salvará su asignatura, un despertador que 
 Las extensiones son pequeños programas de software que personalizan la experiencia de navegación. Permiten a los usuarios adaptar la funcionalidad y el comportamiento del navegador a las necesidades o preferencias individuales.
 
 ## Previsualización
-![Texto Alternativo](/assets/pyclkr1)
+![Texto Alternativo](PythonClocker/assets/pyclkr1)
 ![Texto Alternativo](/assets/pyclkr2)
