@@ -25,6 +25,12 @@ Una vez  sea la hora marcada, saldrá esta ventanita de aquí.
 
 La cual solo tendremos que poner la opción correcta para que se apague la alarma, **'los programas son aleatorios'**.
 
+## Características principales
+
+- **Despertador inteligente**: Pon una hora y te desafía con un programa que debes resolver para apagar la alarma.
+- **Funciona sin conexión**: Solo necesitas instalar la extensión y listo, sin necesidad de internet.
+- **Desafíos aleatorios**: Los desafíos que debes resolver son aleatorios, lo que ofrece una experiencia única cada vez.
+
 ## Lenguajes que contendrá nuestra extensión
 Por ahora, solo nos bastará on **JavaScript**, **Json**, **HTML5** y **CSS3**.
 Para nuevas implementaciones de lenguaje, se modificarán aquí en este documento.
