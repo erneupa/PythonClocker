@@ -12,3 +12,15 @@ Las extensiones son pequeños programas de software que personalizan la experien
 ![Texto Alternativo](assets/pyclkr1.png)
 
 ![Texto Alternativo](/assets/pyclkr2.png)
+
+## Funcionamiento
+![Texto Alternativo](assets/pyclkr1.png)
+En esta imagen de aqui, lo primero que tendremos que hacer es presionar sobre el minilogo de la extensión para que se nos abra el desplegable de nuestra app, una vez abierta, observaremos que en la parte inferior hay un recuadro, donde escribiremos la hora que queremos ponernos a estudiar programación y ya sabemos que no hay mejor manera de romper el hielo que empezando a programar al momento, en este caso con un despertador.
+
+Una vez  sea la hora marcada, saldrá esta ventanita de aquí.
+![Texto Alternativo](assets/pyclkr2.png)
+La cual solo tendremos que poner la opción correcta para que se apague la alarma, **'los programas son aleatorios'**.
+
+## Lenguajes que contendrá nuestra extensión
+Por ahora, solo nos bastará on **JavaScript**, **Json**, **HTML5** y **CSS3**.
+Para nuevas implementaciones de lenguaje, se modificarán aquí en este documento.
