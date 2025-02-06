@@ -31,6 +31,24 @@ La cual solo tendremos que poner la opción correcta para que se apague la alarm
 - **Funciona sin conexión**: Solo necesitas instalar la extensión y listo, sin necesidad de internet.
 - **Desafíos aleatorios**: Los desafíos que debes resolver son aleatorios, lo que ofrece una experiencia única cada vez.
 
+## Beneficios
+
+- **Mejora tus habilidades de programación**: Resuelve desafíos mientras te preparas para tus estudios.
+- **Motivación diaria**: Con la alarma, tendrás una razón para empezar a programar cada día.
+- **Fácil de usar**: Solo necesitas unos clics para configurar el despertador y empezar a trabajar.
+
+## Futuras implementaciones
+
+- **Más lenguajes de programación**: Se añadirán más lenguajes como Java, Kotlin, etc.
+- **Personalización de alarmas**: Opciones para cambiar el sonido de la alarma o el tipo de desafío.
+
+## ¿Cómo instalar la extensión?
+
+1. Ve al **Chrome Web Store** y busca "PythonClocker".
+2. Haz clic en **Añadir a Chrome**.
+3. Una vez instalada, haz clic en el icono de la extensión en la barra de herramientas.
+4. Configura tu hora y ¡prepárate para estudiar!ç
+   
 ## Lenguajes que contendrá nuestra extensión
 Por ahora, solo nos bastará on **JavaScript**, **Json**, **HTML5** y **CSS3**.
 Para nuevas implementaciones de lenguaje, se modificarán aquí en este documento.
