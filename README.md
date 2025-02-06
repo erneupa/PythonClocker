@@ -10,4 +10,5 @@ Las extensiones son pequeños programas de software que personalizan la experien
 
 ## Previsualización
 ![Texto Alternativo](assets/pyclkr1.png)
+
 ![Texto Alternativo](/assets/pyclkr2.png)
