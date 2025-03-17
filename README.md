@@ -9,7 +9,11 @@ Esta extensión para su navegador le salvará su asignatura, un despertador que 
 ## Significado de extensión
 Las extensiones son pequeños programas de software que personalizan la experiencia de navegación. Permiten a los usuarios adaptar la funcionalidad y el comportamiento del navegador a las necesidades o preferencias individuales.
 
+## Edita la extensión
 
+1. En el archivo server.js cambia la TU-APYKEY
+2. En el archivo background.js cambia la TU-APYKEY
+3. 
 ## ¿Cómo instalar la extensión?
 
 1. [PINCHA AQUI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
@@ -19,6 +23,10 @@ Las extensiones son pequeños programas de software que personalizan la experien
 5. Instala un servidor local.
 
 ## ¿Como intalar un servidor local?
+### Descarga node.js.
+    1. Dirígene hacia esta [url](https://nodejs.org/es)
+    2. Descarga e instala la app.
+    ---
 1. Dirígete a la consola de Windows.
 2. Accede a la carpeta de la extensión a través de la consola.
 3. Copia y pega este código ``` npm install node-fetch@2 ```
