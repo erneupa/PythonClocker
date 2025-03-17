@@ -13,7 +13,7 @@ Las extensiones son pequeños programas de software que personalizan la experien
 ## ¿Cómo instalar la extensión?
 
 1. [PINCHA AQUI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
-2. Dirígete hasta este [enlace](edge://extensions/)
+2. Dirígete hasta este [enlace](https://edge://extensions/)
 3. Activa esta función ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
 4. Agrega aqí la estensión ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
 5. Instala un servidor local.
