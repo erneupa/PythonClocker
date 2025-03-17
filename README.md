@@ -25,3 +25,5 @@ Las extensiones son pequeños programas de software que personalizan la experien
 4. Copia y pega este código ```npm install express cors```
 5. Copia y pega este código ```node server.js```
 
+**A USAR LA EXTENSIÓN!!**
+
