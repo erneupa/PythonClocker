@@ -12,17 +12,16 @@ Las extensiones son pequeños programas de software que personalizan la experien
 
 ## ¿Cómo instalar la extensión?
 
-1. [PINCHA AQUI]() para descargar la extensión.
-   
-## Lenguajes que contendrá nuestra extensión
-Por ahora, solo nos bastará on **JavaScript**, **Json**, **HTML5** y **CSS3**.
-Para nuevas implementaciones de lenguaje, se modificarán aquí en este documento.
+1. [PINCHA AQUI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
+2. Dirígete hasta este [enlace](edge://extensions/)
+3. Activa esta función ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
+4. Agrega aqí la estensión ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
+5. Instala un servidor local.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON"/>
-</p>
+## ¿Como intalar un servidor local?
+1. Dirígete a la consola de Windows.
+2. Accede a la carpeta de la extensión a través de la consola.
+3. Copia y pega este código ``` npm init -y ```
+4. Copia y pega este código ```npm install express cors```
+5. Copia y pega este código ```node server.js```
 
