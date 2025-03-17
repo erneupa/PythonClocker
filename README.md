@@ -12,10 +12,7 @@ Las extensiones son pequeños programas de software que personalizan la experien
 
 ## ¿Cómo instalar la extensión?
 
-1. Ve al **Chrome Web Store** y busca "PythonClocker".
-2. Haz clic en **Añadir a Chrome**.
-3. Una vez instalada, haz clic en el icono de la extensión en la barra de herramientas.
-4. Configura tu hora y ¡prepárate para estudiar!ç
+1. [PINCHA AQUI]() para descargar la extensión.
    
 ## Lenguajes que contendrá nuestra extensión
 Por ahora, solo nos bastará on **JavaScript**, **Json**, **HTML5** y **CSS3**.
