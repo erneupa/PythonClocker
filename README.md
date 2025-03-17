@@ -26,7 +26,6 @@ Las extensiones son pequeños programas de software que personalizan la experien
 ### Descarga node.js.
     1. Dirígene hacia esta [url](https://nodejs.org/es)
     2. Descarga e instala la app.
-    ---
 1. Dirígete a la consola de Windows.
 2. Accede a la carpeta de la extensión a través de la consola.
 3. Copia y pega este código ``` npm install node-fetch@2 ```
