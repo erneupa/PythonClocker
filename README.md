@@ -13,7 +13,7 @@ Las extensiones son pequeños programas de software que personalizan la experien
 
 1. En el archivo server.js cambia la TU-APYKEY
 2. En el archivo background.js cambia la TU-APYKEY
-3. 
+3. La APY se encontrará en los archuivos de Moodle.
 ## ¿Cómo instalar la extensión?
 
 1. [PINCHA AQUI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
