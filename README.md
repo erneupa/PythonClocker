@@ -13,7 +13,7 @@ Las extensiones son pequeños programas de software que personalizan la experien
 ## ¿Cómo instalar la extensión?
 
 1. [PINCHA AQUI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
-2. Dirígete hasta este [enlace](https://edge://extensions/)
+2. Dirígete hasta este enlace chrome://extensions/
 3. Activa esta función ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
 4. Agrega aqí la estensión ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
 5. Instala un servidor local.
@@ -21,7 +21,7 @@ Las extensiones son pequeños programas de software que personalizan la experien
 ## ¿Como intalar un servidor local?
 1. Dirígete a la consola de Windows.
 2. Accede a la carpeta de la extensión a través de la consola.
-3. Copia y pega este código ``` npm init -y ```
+3. Copia y pega este código ``` npm install node-fetch@2 ```
 4. Copia y pega este código ```npm install express cors```
 5. Copia y pega este código ```node server.js```
 
