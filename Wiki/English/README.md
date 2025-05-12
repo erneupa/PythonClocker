@@ -1,75 +1,91 @@
-
 # PythonClocker
 
-## Visión General
-**PythonClocker** es una extensión de navegador diseñada para ayudar a los estudiantes de programación al desafiarles a resolver problemas de programación en Python para detener una alarma. La creé como una forma divertida de motivarme (y motivar a otros) a practicar Python.
+## Overview
+**PythonClocker** is a browser extension designed to help programming students by challenging them to solve Python programming problems in order to stop an alarm. I created it as a fun way to motivate myself (and others) to practice Python.
 
 ---
 
-## Documentación para Desarrolladores
+## Documentation for Developers
 
-### Estructura del Proyecto
+### Project Structure
 
-- `server.js`: El servidor backend que maneja las solicitudes y gestiona la funcionalidad de la extensión.
-- `background.js`: El script de fondo que ejecuta la lógica de la extensión, como verificar si el problema ha sido resuelto.
-- `manifest.json`: El archivo de configuración que le indica al navegador cómo cargar la extensión.
-- `assets/`: Carpeta que contiene imágenes y otros recursos necesarios para la extensión.
+- `server.js`: The backend server that handles requests and manages the functionality of the extension.
+- `background.js`: The background script that runs the logic for the extension, such as checking if the problem is solved.
+- `manifest.json`: The configuration file that tells the browser how to load the extension.
+- `assets/`: Folder containing images and other resources needed by the extension.
 
-### Dependencias
+### Dependencies
 
-- **Node.js**: Requerido para ejecutar el servidor localmente.
-- **Express**: Un framework web para Node.js que se utiliza para manejar las solicitudes HTTP.
-- **CORS**: Un middleware para Express que maneja solicitudes entre orígenes distintos.
-- **Node-fetch**: Una librería ligera para realizar solicitudes HTTP en Node.js.
+- **Node.js**: Required to run the server locally.
+- **Express**: A web framework for Node.js used to handle HTTP requests.
+- **CORS**: A middleware for Express that handles cross-origin requests.
+- **Node-fetch**: A lightweight library for making HTTP requests in Node.js.
 
-### Instalación para Desarrolladores
+### Installation for Developers
 
-1. Clona el repositorio o descarga el archivo ZIP desde [PythonClocker GitHub](https://github.com/erneupa/PythonClocker).
-2. Abre una terminal y navega hasta la carpeta del proyecto.
-3. Instala las dependencias necesarias ejecutando:
+1. Clone the repository or download the ZIP file from [PythonClocker GitHub](https://github.com/erneupa/PythonClocker).
+2. Open a terminal and navigate to the project folder.
+3. Install the required dependencies by running:
 
     ```
     npm install node-fetch@2
     npm install express cors
     ```
 
-4. Después de instalar las dependencias, ejecuta el servidor con:
+4. After the dependencies are installed, run the server with:
 
     ```
     node server.js
     ```
 
-5. Ahora puedes probar la extensión localmente cargándola en tu navegador a través de la página de Extensiones (`chrome://extensions/`), activando el modo de desarrollador y seleccionando "Cargar descomprimido".
+5. You can now test the extension locally by loading it into your browser via the Extensions page (`chrome://extensions/`), enabling Developer Mode, and selecting "Load unpacked."
 
-### Configuración de la API Key
+### API Key Configuration
 
-1. Abre el archivo `server.js` y reemplaza `TU-APYKEY` por tu clave API real.
-2. Repite lo mismo en el archivo `background.js` donde también se requiere la clave.
-3. La clave API generalmente se puede encontrar en los archivos de Moodle relacionados con tu proyecto.
+1. Open the `server.js` file and replace `TU-APYKEY` with your actual API key.
+2. Do the same in the `background.js` file where the key is also required.
+3. The API key can typically be found in the Moodle files related to your project.
 
-### Cómo Funciona la Extensión
+### How the Extension Works
 
-La extensión sirve como una alarma interactiva. Activa una alarma que solo se puede apagar cuando el usuario resuelve un problema de Python. Esta funcionalidad hace que sea una herramienta divertida y efectiva para practicar programación.
+The extension serves as an interactive alarm clock. It triggers an alarm that can only be turned off when the user solves a Python problem. This functionality makes it a fun and effective tool for practicing programming.
 
 ---
 
-## Devlog (Publicación en LinkedIn)
+## Devlog (LinkedIn Post)
 
-### **Devlog Entrada #1: Concepto Inicial y Idea**
+### **Devlog Entry #1: Initial Concept and Idea**
 
-Cuando empecé a aprender programación a los 18 años, descubrí que Python podía ser tanto sencillo como frustrante al mismo tiempo. Había días en los que me sentía motivado y otros en los que las dificultades constantes me hacían querer rendirme. Quería encontrar una solución que me mantuviera involucrado mientras aprendía. Así que tuve la idea de **PythonClocker**: una extensión de navegador que combina aprender con un reto. La alarma solo se detiene cuando el usuario resuelve un problema de Python. Fue una manera de combinar motivación y diversión.
+When I first started learning programming at the age of 18, I found Python to be both straightforward and frustrating at the same time. There were days when I felt motivated, and other days when the constant struggles made me want to give up. I wanted a solution that would keep me engaged while learning. That’s when I had the idea for **PythonClocker** — a browser extension that combines learning with a challenge. The alarm only stops when the user solves a Python problem. It was a way to combine motivation with fun.
 
-### **Devlog Entrada #2: Comenzando con la Extensión**
+### **Devlog Entry #2: Getting Started with the Extension**
 
-El siguiente paso fue decidir cómo construir la extensión. Elegí usar JavaScript para la extensión del navegador, ya que es fácil de trabajar para este tipo de proyectos. Comencé creando la estructura básica de la extensión: un archivo de manifiesto, scripts de fondo y un HTML sencillo para la funcionalidad de la alarma. Luego, pasé a configurar un servidor básico usando **Node.js**, **Express** y **CORS**. Quería que todo funcionara sin problemas y localmente, asegurándome de tener una configuración confiable.
+The next step was deciding how to build the extension. I chose to use JavaScript for the browser extension, as it’s easy to work with for these kinds of projects. I started by creating the basic structure of the extension: a manifest file, background scripts, and simple HTML for the alarm functionality. Then, I moved on to setting up a basic server using **Node.js**, **Express**, and **CORS**. I wanted everything to run smoothly and locally, making sure I had a reliable setup.
 
-### **Devlog Entrada #3: Construyendo el Servidor**
+### **Devlog Entry #3: Building the Server**
 
-Una vez que tenía la extensión básica funcionando, me concentré en el servidor. El servidor es esencial para manejar solicitudes y gestionar la API que proporciona los problemas de Python. Utilicé **Node-fetch** para realizar solicitudes HTTP y manejar tareas asincrónicas. Configurar el servidor fue complicado, pero una vez que lo entendí, pude ejecutar la extensión sin problemas en mi máquina local.
+Once I had the basic extension running, I focused on the server. The server is essential for handling requests and managing the API that supplies the Python problems. I used **Node-fetch** to make HTTP requests and handle asynchronous tasks. Setting up the server was tricky, but once I got the hang of it, I was able to run the extension seamlessly on my local machine.
 
-### **Devlog Entrada #4: Depuración y Pruebas**
+### **Devlog Entry #4: Debugging and Testing**
 
-La depuración fue una de las partes más desafiantes de este proyecto. Necesitaba asegurarme de que, cuando el usuario resolviera el problema de Python, la alarma se detuviera. Al principio, había algunos problemas con la clave API y la comunicación entre el servidor y la extensión, pero los resolví revisando cuidadosamente la lógica en `server.js` y `background.js`.
+Debugging was one of the most challenging parts of this project. I needed to ensure that when the user solved the Python problem, the alarm would stop. At first, there were some issues with the API key and communication between the server and the extension, but I resolved them by carefully reviewing the logic in both `server.js` and `background.js`.
 
-### **Devlog Entrada #5: Últimos Ajustes y Despliegue**
+### **Devlog Entry #5: Final Touches and Deployment**
+
+After weeks of testing, I finally had everything working as expected. The extension was running smoothly, and the Python problems were displayed correctly. I made some final adjustments to the user interface, ensuring everything looked neat. The next step was packaging the extension and preparing it for deployment.
+
+I uploaded the project to GitHub, created a detailed README, and shared the extension with my friends for their feedback. It’s amazing to see the initial idea evolve into a functional tool that not only helps me but can also assist other students in their programming journey.
+
+### **Devlog Entry #6: Reflection and Next Steps**
+
+Looking back, this project was a great learning experience. I encountered a lot of obstacles, but each one helped me grow as a developer. The extension is now ready for use, and I’m planning to continue improving it based on user feedback. I’ve also started thinking about future features, like adding more types of programming challenges or integrating with other languages like JavaScript or C++.
+
+This project was an excellent opportunity to dive deep into web development, Node.js, and the world of browser extensions. I’m excited to see where it goes next!
+
+### **Devlog Final:**
+
+I hope this devlog helps anyone who is looking to create their own browser extension or just wants to understand the process of turning an idea into reality. The key takeaway is that persistence pays off — even when things don’t work out at first. Keep coding, keep learning, and most importantly, keep having fun!
+
+---
+
 
