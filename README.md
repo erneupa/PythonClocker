@@ -17,12 +17,19 @@ Aarón Neupaver Montiel
 
 # PythonClocker
 
-Click here to see the [demo](https://chromewebstore.google.com/detail/kobehbnioildglecmfabpelnjnemihpn?utm_source=item-share-cb).
-
-## What is it about?
 This idea originated when an 18-year-old boy started studying programming. Everything was great, but... Python, that interpreted language, sometimes easy, but other times a complete nightmare.  
 So here is your solution!!  
 This browser extension will save your subject, an alarm clock that you can only stop by solving the program.
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/kobehbnioildglecmfabpelnjnemihpn?utm_source=item-share-cb">
+    <img src="https://img.shields.io/badge/🚀 Demo-PythonClocker-blue?style=for-the-badge" alt="Demo">
+  </a>
+  &nbsp;
+  <a href="https://github.com/erneupa/PythonClocker/wiki">
+    <img src="https://img.shields.io/badge/📘 Wiki-Documentation-green?style=for-the-badge" alt="Wiki">
+  </a>
+</p>
 
 ## Meaning of extension
 Extensions are small software programs that personalize the browsing experience. They allow users to customize the functionality and behavior of the browser to their individual needs or preferences.
