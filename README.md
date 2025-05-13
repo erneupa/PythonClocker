@@ -15,11 +15,21 @@ Aarón Neupaver Montiel
 </p>
 
 
-# PythonClocker
+<h1 align="center">⏰ PythonClocker</h1>
 
-This idea originated when an 18-year-old boy started studying programming. Everything was great, but... Python, that interpreted language, sometimes easy, but other times a complete nightmare.  
-So here is your solution!!  
-This browser extension will save your subject, an alarm clock that you can only stop by solving the program.
+<p align="center">
+  <em>Because sometimes the only way to learn Python... is to wake up with it.</em>
+</p>
+
+<p align="center">
+  This idea originated when an 18-year-old boy started studying programming.<br>
+  Everything was great, but... Python, that interpreted language, sometimes easy,<br>
+  but other times a complete nightmare.<br><br>
+  <strong>So here is your solution!!</strong><br>
+  This browser extension will save your subject — an alarm clock that you can only stop by solving the program.
+</p>
+
+---
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/kobehbnioildglecmfabpelnjnemihpn?utm_source=item-share-cb">
