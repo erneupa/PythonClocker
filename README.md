@@ -3,13 +3,13 @@ Aarón Neupaver Montiel
 <h2 align="center">🌐 Other Languages</h2>
 
 <p align="center">
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/Spanish">
+  <a href="https://github.com/erneupa/PythonClocker/tree/bf210416ccd5e8444be52bf536a3a6ea603aa398/Languages/Spanish">
     🇪🇸 <strong>Spanish</strong>
   </a> &nbsp;·&nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/French">
+  <a href="https://github.com/erneupa/PythonClocker/tree/bf210416ccd5e8444be52bf536a3a6ea603aa398/Languages/French">
     🇫🇷 <strong>French</strong>
   </a> &nbsp;·&nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/Japanese">
+  <a href="https://github.com/erneupa/PythonClocker/tree/bf210416ccd5e8444be52bf536a3a6ea603aa398/Languages/Japanese">
     🇯🇵 <strong>Japanese</strong>
   </a>
 </p>
