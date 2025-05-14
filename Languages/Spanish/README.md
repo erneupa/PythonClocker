@@ -50,7 +50,7 @@ Las extensiones son pequeños programas que personalizan la experiencia de naveg
 
 ## ¿Cómo instalar la extensión?
 
-1. [HAZ CLIC AQUÍ](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) para descargar la extensión.
+1. [HAZ CLIC AQUÍ](https://github.com/erneupa/PythonClocker/tree/main/PythonClocker) para descargar la extensión.
 2. Ve a este enlace `chrome://extensions/`
 3. Activa esta opción ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
 4. Añade la extensión aquí ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
