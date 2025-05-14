@@ -64,7 +64,7 @@ Extensions are small software programs that personalize the browsing experience.
 
 ## How to install a local server?
 ### Download node.js.
-    1. Go to this [url](https://nodejs.org/en)
+    1. Go to this ![url](https://nodejs.org/en)
     2. Download and install the app.
 1. Go to the Windows console.
 2. Access the extension folder through the console.
