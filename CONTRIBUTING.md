@@ -25,25 +25,25 @@ Make small, clear commits with descriptive messages.
 
 ### 4. Testing
 
-**·**Run all existing tests to ensure nothing breaks.
+**·** Run all existing tests to ensure nothing breaks.
 
-**·**Add new tests if you introduce new features.
+**·** Add new tests if you introduce new features.
 
 ### 5. Submit a Pull Request (PR)
 
-**·**Make sure your branch is up to date with the main branch (main or master).
+**·** Make sure your branch is up to date with the main branch (main or master).
 
-**·**Submit a PR detailing what you have changed and why.
+**·** Submit a PR detailing what you have changed and why.
 
-**·**Wait for review and respond to any comments.
+**·** Wait for review and respond to any comments.
 
 ## Style Guidelines
 
-**·**Follow the coding standards used in the project.
+**·** Follow the coding standards used in the project.
 
-**·**Write clear and concise commit messages.
+**·** Write clear and concise commit messages.
 
-**·**Document your changes if necessary.
+**·** Document your changes if necessary.
 
 ## Areas to Expand and Improve
 
