@@ -36,7 +36,7 @@ Aarón Neupaver Montiel
     <img src="https://img.shields.io/badge/🚀 Demo-PythonClocker-blue?style=for-the-badge" alt="Demo">
   </a>
   &nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/tree/bf210416ccd5e8444be52bf536a3a6ea603aa398/Wiki">
+  <a href="https://github.com/erneupa/PythonClocker/wiki/Wiki%E2%80%90PythonClocker">
     <img src="https://img.shields.io/badge/📘 Wiki-Documentation-green?style=for-the-badge" alt="Wiki">
   </a>
   &nbsp;
