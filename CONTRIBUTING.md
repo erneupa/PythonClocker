@@ -10,9 +10,9 @@ Thank you for your interest in contributing to this project! Here you will find 
 
 Fork this repository to your GitHub account and clone it locally:
 
-```bash
+```
 git clone https://github.com/your-username/project-name.git
-
+```
 ### 2. Create a Branch for Your Contribution
 
 To keep the repository clean and organized, create a branch with a descriptive name:
