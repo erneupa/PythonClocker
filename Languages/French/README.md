@@ -31,11 +31,15 @@
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/kobehbnioildglecmfabpelnjnemihpn?utm_source=item-share-cb">
-    <img src="https://img.shields.io/badge/🚀 Démo-PythonClocker-blue?style=for-the-badge" alt="Démo">
+    <img src="https://img.shields.io/badge/🚀 Demo-PythonClocker-blue?style=for-the-badge" alt="Demo">
   </a>
   &nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/wiki">
+  <a href="https://github.com/erneupa/PythonClocker/wiki/Wiki%E2%80%90PythonClocker">
     <img src="https://img.shields.io/badge/📘 Wiki-Documentation-green?style=for-the-badge" alt="Wiki">
+  </a>
+  &nbsp;
+  <a href="https://github.com/erneupa/PythonClocker/blob/main/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/📘 Contributing-Documentation-pink?style=for-the-badge" alt="CONTRIBUTING">
   </a>
 </p>
 
