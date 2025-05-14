@@ -1,15 +1,13 @@
 
-<h2 align="center">🌐 他の言語</h2>
-
 <p align="center">
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/Spanish">
-    🇪🇸 <strong>スペイン語</strong>
+  <a href="https://github.com/erneupa/PythonClocker/blob/main/Languages/Spanish/README.md">
+    🇪🇸 <strong>Spanish</strong>
   </a> &nbsp;·&nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/French">
-    🇫🇷 <strong>フランス語</strong>
+  <a href="https://github.com/erneupa/PythonClocker/blob/main/Languages/French/README.md">
+    🇫🇷 <strong>French</strong>
   </a> &nbsp;·&nbsp;
-  <a href="https://github.com/erneupa/PythonClocker/tree/main/Wiki/Japanese">
-    🇯🇵 <strong>日本語</strong>
+  <a href="https://github.com/erneupa/PythonClocker/blob/main/Languages/Japanese/README.md">
+    🇯🇵 <strong>Japanese</strong>
   </a>
 </p>
 
