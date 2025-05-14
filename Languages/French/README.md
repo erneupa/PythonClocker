@@ -50,7 +50,7 @@ Les extensions sont de petits programmes qui personnalisent l'expérience de nav
 
 ## Comment installer l'extension ?
 
-1. [CLIQUEZ ICI](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip) pour télécharger l'extension.
+1. [CLIQUEZ ICI](https://github.com/erneupa/PythonClocker/tree/main/PythonClocker) pour télécharger l'extension.
 2. Allez à ce lien `chrome://extensions/`
 3. Activez cette fonctionnalité ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
 4. Ajoutez l'extension ici ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
