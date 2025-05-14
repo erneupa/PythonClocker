@@ -39,7 +39,6 @@ Aarón Neupaver Montiel
   <a href="https://github.com/erneupa/PythonClocker/tree/bf210416ccd5e8444be52bf536a3a6ea603aa398/Wiki">
     <img src="https://img.shields.io/badge/📘 Wiki-Documentation-green?style=for-the-badge" alt="Wiki">
   </a>
-</p>
   &nbsp;
   <a href="https://github.com/erneupa/PythonClocker/blob/main/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/📘 Contributing-Documentation-pink?style=for-the-badge" alt="CONTRIBUTING">
