@@ -50,7 +50,7 @@
 
 ## 拡張機能のインストール方法
 
-1. [ここをクリック](https://github.com/erneupa/PythonClocker/blob/main/PYTHONCLOCKER.zip)して拡張機能をダウンロード
+1. [ここをクリック](https://github.com/erneupa/PythonClocker/tree/main/PythonClocker)して拡張機能をダウンロード
 2. `chrome://extensions/`にアクセス
 3. この機能を有効にします ![1](https://github.com/erneupa/PythonClocker/blob/main/assets/1a.png)
 4. ここで拡張機能を追加します ![2](https://github.com/erneupa/PythonClocker/blob/main/assets/2a.png)
