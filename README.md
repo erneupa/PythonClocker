@@ -78,75 +78,72 @@ Extensions are small software programs that personalize the browsing experience.
 
 
 
-## PREGUNTAS
+## QUESTIONS
 
-### Ciclo de vida del dato (5b)
+### Data Lifecycle (5b)
 
-#### ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
-Los datos en mi extensión se generan cuando el usuario pone la hora en el reloj o cuando se hace una petición a OpenAI para obtener una pregunta. No se guardan de forma permanente, solo se usan mientras la extensión está activa y luego desaparecen cuando se cierra.
+#### How is data managed from its creation to deletion in your project?
+Data in my extension is generated when the user sets the time on the clock or when a request is made to OpenAI to get a question. It is not stored permanently, only used while the extension is active and then disappears when it is closed.
 
-#### ¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?
-- Se validan las horas y minutos antes de iniciar la cuenta atrás.
-- Se maneja correctamente la respuesta de OpenAI para evitar errores en la estructura JSON.
-- Se usa `try-catch` en `background.js` para capturar errores en la API y manejar respuestas incorrectas.
+#### What strategy do you follow to ensure data consistency and integrity?
+- Hours and minutes are validated before starting the countdown.
+- The response from OpenAI is properly handled to avoid errors in the JSON structure.
+- `try-catch` is used in `background.js` to catch API errors and handle incorrect responses.
 
-### Almacenamiento en la nube (5f)
+### Cloud Storage (5f)
 
-#### Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?
-- Se usa HTTPS en todas las peticiones a OpenAI.
-- No se almacenan datos sensibles en archivos accesibles.
-- Se podría integrar autenticación para mejorar la seguridad en futuras versiones.
+#### If your software uses cloud storage, how do you guarantee the security and availability of data?
+- HTTPS is used for all requests to OpenAI.
+- Sensitive data is not stored in accessible files.
+- Authentication could be integrated to improve security in future versions.
 
-#### ¿Qué alternativas consideraste para almacenar datos y por qué elegiste tu solución actual?
-Podría haber guardado datos en `chrome.storage` o en un servidor propio, pero como la extensión no necesita persistencia, preferí mantener todo en memoria para que funcione más rápido.
+#### What alternatives did you consider for storing data and why did you choose your current solution?
+I could have saved data in `chrome.storage` or on a private server, but since the extension does not need persistence, I preferred to keep everything in memory to make it faster.
 
-#### Si no usas la nube, ¿cómo podrías integrarla en futuras versiones?
-Podría conectar la extensión con Google Drive o Firebase para que el usuario pueda acceder a su historial de preguntas y respuestas desde cualquier dispositivo.
+#### If you don't use the cloud, how could you integrate it in future versions?
+I could connect the extension with Google Drive or Firebase so the user can access their history of questions and answers from any device.
 
+### Security and Regulation (5i)
 
-### Seguridad y regulación (5i)
+#### What security measures did you implement to protect data or processes in your project?
+- **No personal data is stored on the frontend.**
+- **Errors are handled in `background.js`** to avoid API failures.
+- **Access restrictions in `manifest.json`**, allowing only secure connections.
 
-#### ¿Qué medidas de seguridad implementaste para proteger los datos o procesos en tu proyecto?
-- **No se guardan datos personales en el frontend**.
-- **Se manejan errores en `background.js`** para evitar fallos en la API.
-- **Restricción de accesos en `manifest.json`**, permitiendo solo conexiones seguras.
+#### What regulations (e.g., GDPR) could affect the use of your software and how have you taken them into account?
+At the moment it does not affect because no personal data is stored. But if in future versions user data is saved, privacy options would need to be added to comply with GDPR.
 
-#### ¿Qué normativas (e.g., GDPR) podrían afectar el uso de tu software y cómo las has tenido en cuenta?
-Ahora mismo no afecta porque no almacena datos personales. Pero si en futuras versiones se guardaran datos del usuario, habría que añadir opciones de privacidad para cumplir con GDPR.
+### Impact of Digital Enabling Technologies (THD) on Business and Plant (2e)
 
-### Implicación de las THD en negocio y planta (2e)
+#### What impact would your software have in a business environment or an industrial plant?
+It could be useful in education or companies that want to evaluate their employees with random questions. In an industrial plant, it could be adapted to show reminders or manage automated tasks.
 
-#### ¿Qué impacto tendría tu software en un entorno de negocio o en una planta industrial?
-Podría ser útil en educación o en empresas que quieran evaluar a sus empleados con preguntas aleatorias. En una planta industrial, se podría adaptar para mostrar recordatorios o gestionar tareas automatizadas.
+#### How do you think your solution could improve operational processes or decision-making?
+If implemented in a business, it could automate learning with dynamically generated questions. It could also serve as automatic reminders for important tasks.
 
-#### ¿Cómo crees que tu solución podría mejorar procesos operativos o la toma de decisiones?
-Si se implementa en un negocio, podría automatizar el aprendizaje con preguntas generadas dinámicamente. También serviría como recordatorio automático para tareas importantes.
+#### If your project does not directly apply to business or plant, what other environments could benefit?
+Education is where it fits best. It could be improved so programming students practice with customized tests according to their level.
 
-#### Si tu proyecto no aplica directamente a negocio o planta, ¿qué otros entornos podrían beneficiarse?
-La educación es donde más podría encajar. Se podría mejorar para que los estudiantes de programación practiquen con tests personalizados según su nivel.
+### Improvements in IT and OT (2f)
 
+#### How can your software facilitate integration between IT and OT environments?
+If adapted for use in a company, it could integrate with alert or monitoring systems to automate processes.
 
-### Mejoras en IT y OT (2f)
+#### What specific processes could benefit from your solution in terms of automation or efficiency?
+- **Automatic reminders** for maintenance in factories.
+- **Dynamic evaluations** for employees using OpenAI.
+- **Task automation** with alerts based on predefined times.
 
-#### ¿Cómo puede tu software facilitar la integración entre entornos IT y OT?
-Si se adapta para usarse en una empresa, podría integrarse con sistemas de alertas o monitoreo para automatizar procesos.
+#### If it does not apply to IT or OT, how could you adapt it to improve specific technological processes?
+It could connect with Google Calendar to set personalized reminders or with external APIs to manage time efficiently.
 
-#### ¿Qué procesos específicos podrían beneficiarse de tu solución en términos de automatización o eficiencia?
-- **Recordatorios automáticos** para mantenimiento en fábricas.
-- **Evaluaciones dinámicas** para empleados usando OpenAI.
-- **Automatización de tareas** con alertas basadas en tiempos predefinidos.
+### Digital Enabling Technologies (2g)
 
-#### Si no aplica a IT u OT, ¿cómo podrías adaptarlo para mejorar procesos tecnológicos concretos?
-Podría conectarse con Google Calendar para establecer recordatorios personalizados o con APIs externas para gestionar el tiempo de manera eficiente.
+#### What digital enabling technologies (THD) have you used or could you integrate into your project?
+- **Artificial Intelligence (OpenAI):** Generates programming questions in real time.
+- **API KEY:** Connects the extension remotely with OpenAI.
+- **Local storage (`chrome.storage`):** Could be used in future versions to save settings.
 
-
-### Tecnologías Habilitadoras Digitales (2g)
-
-#### ¿Qué tecnologías habilitadoras digitales (THD) has utilizado o podrías integrar en tu proyecto?
-- **Inteligencia Artificial (OpenAI):** Genera preguntas de programación en tiempo real.
-- **API KEY :** Conecta la extensión con OpenAI de forma remota.
-- **Almacenamiento local (`chrome.storage`)**: Se podría usar en futuras versiones para guardar configuraciones.
-
-#### ¿Cómo mejoran estas tecnologías la funcionalidad o el alcance de tu software?
-- OpenAI hace que las preguntas sean dinámicas y diferentes en cada uso.
-- Un sistema de almacenamiento permitiría que los usuarios guarden su progreso.
+#### How do these technologies improve the functionality or reach of your software?
+- OpenAI makes the questions dynamic and different each time.
+- A storage system would allow users to save their progress.
